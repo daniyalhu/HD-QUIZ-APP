@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+</head>
+<style>
+    body{
+        background-image: url('../img/gg.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    textarea{
+        border-radius: 5px;
+        border: 1px solid;
+    }
+    form{
+        border: 2px solid rgb(0, 0, 0);
+        width: 300px;
+        height:440px;
+        box-shadow: 2px 2px 35px 2px;
+        border-radius: 10px;
+    }
+input{
+    width: 250px;
+    height: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 15px;
+   border-radius: 5px;
+   border:1px solid;
+}
+button{
+    width: 250px;
+    height: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 15px;
+   border-radius: 5px;
+   border: 1px solid;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-right:140px;
+}
+button:hover{
+    background-color: rgb(67, 255, 67);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+</style>
+<body>
+    <center>
+        <br><br><br>
+  <header>
+     <form action="post">
+    <label for="name">First Name:</label><br>
+    <input type="text" name="Fname" placeholder="First name" id="name" maxlength="15" required="required">
+    <br>
+    <label for="Last">Last Name:</label><br>
+    <input type="text" name="Lname" placeholder="Last name" id="Last" maxlength="15" required="required">
+    <br>
+    <label for="Father">Father Name:</label><br>
+    <input type="text" name="Lname" placeholder="Father name" id="Father" maxlength="15" required="required">
+    <br>
+    <label for="email">Your Email:</label><br>
+    <input type="email" name="email" placeholder="Your Email" id="email" maxlength="25" required="required">
+    <br>
+    <label for="pass">Your Password:</label><br>
+    <input type="password" name="pass" placeholder="Your Password" id="pass" maxlength="10" required="required">
+    <br>
+    <label for="code">UTP code:</label><br>
+    <input type="password" name="pass" placeholder="UTP code" id="code" required="required" maxlength="4">
+    <br>
+    <label for="ad">Address:</label><br>
+   <textarea name="text" id="ad" cols="33" rows="5" placeholder="Enter Your Address:"></textarea>
+    <br><br>
+  <button type="submit"><a href="">Submit</button></a>
+
+     </form> 
+  </header>  
+  </center>
+</body>
+</html>
